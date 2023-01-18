@@ -1,0 +1,99 @@
+.main {
+  background-color: #d8d8d8;
+  height: 100vh;
+  padding: 24px;
+}
+.inputWrap {
+  display: flex;
+  height: 50px;
+  border-radius: 12px;
+  box-shadow: 3px 3px 12px 1px rgba(0,0,0,0.25);
+  margin-bottom: 24px;
+}
+
+.input {
+  width: 80%;
+  padding: 4px 8px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  background-color: #3A8Ac0;
+  font-size:18px;
+  color: #fff;
+  border:none;
+  outline:0;
+}
+
+.inputButton {
+  width: 20%;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;  
+}
+
+.cardList {
+  display: flex;
+}
+
+.select {
+  margin-bottom: 24px;
+  width: 100%;
+  padding: 4px 8px;
+}
+
+.card {
+  width: 200px;
+  height: fit-content;
+  padding: 13px;
+  border-radius: 12px;
+  background-color: #3A8Ac0;
+  font-size: 14px;
+  margin-left: 24px;
+  box-shadow: 3px 3px 12px 1px rgba(0,0,0,0.25);
+  text-decoration: none;
+  color: #fff;
+
+}
+
+.card:first-child {
+  margin-left: 0;
+}
+
+.actionButtonWrap {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.actionButton {
+  border: 1px solid #000;
+  background: #fff;
+}
+
+.mainInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.description {
+  margin-top: 4px;
+  font-size: 16px;
+}
+
+.temperature {
+  margin-top: 12px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.temperature::after {
+  content: '°';
+}
+.information {
+  margin-top: 12px;
+}
+.information > div{
+  margin-top: 4px;
+}
